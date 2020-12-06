@@ -2,8 +2,3 @@ input, button {
     display: inline-block;
     padding: 10px;
 }
-
-div {
-    margin: auto;
-    width: 30%;
-}
