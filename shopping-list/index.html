@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="JavaScript Exercises">
+        <meta name="author" content="Joy Taylor">
+        <title>JavaScript Exercise 2</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Shopping List</h1>
+        
+        <div>
+            <ul>
+                <li><a class="add-to-cart" href="#" data-name="Apples" data-price="1.22"> Apples $1.22</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Bananas" data-price="1.99"> Bananas $1.99</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Carrots" data-price="0.67"> Carrots $0.67</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Donuts" data-price="4.32"> Donuts $4.32</a></li>
+                <li><a class="add-to-cart" href="#" data-name="Eggs" data-price="9.54"> Eggs $9.54</a></li>
+            </ul>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+
+        <h1>Shopping Cart</h1>
+        <div>
+            <ul id="show-cart">
+                <!-- -->
+            </ul>
+            <div >Total Cart: $<span id="total-cart"></span></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
